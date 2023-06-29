@@ -1,0 +1,175 @@
+h2,h3,h4{
+  color: #5B8FB9;
+    line-height: 3rem;
+}
+
+div{
+  text-align: center;
+  margin:0;
+}
+.address{
+  color:#fff;
+}
+.pro-body{
+  background-color: #5B8FB9;
+  line-height: 2.5rem;
+}
+.pro-title{
+  color:#301E67;
+  text-align: center;
+}
+.pro-text{
+  font-size: 1.5rem;
+}
+.link-text{
+  color:#301E67;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+/* title section */
+
+.container-fluid{
+  background-color: #301E67;
+  padding:3% 7% 3%;
+  margin:0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-nav{
+  padding-left:30%;
+}
+.nav-item{
+  padding:0 3%;
+}
+
+/* profile-section */
+.profile-sec-div{
+  padding-top:3%;
+}
+.about-me-div{
+  text-align: left;
+}
+.my-photo-div{
+position:relative;
+}
+.profile-pic{
+  width:50%;
+  margin:2% auto;
+  position:absolute;
+  z-index:1;
+  right:25%;
+}
+
+/* skills section */
+.skills-sec-div{
+  background-color: #5B8FB9;
+  padding:3% 7%;
+  text-align: center;
+}
+.skill-div{
+  display:inline-block;
+  width:250px;
+  height:200px;
+  margin:3% 5%;
+}
+.skill-img{
+  width:100px;
+  height:100px;
+}
+.ratings{
+  margin:5% auto 0;
+}
+.skill{
+  color:#301E67;
+}
+
+/* education section */
+#Education{
+  background-color: #301E67;
+  text-align:center;
+  padding:3% 7%;
+}
+
+.carousel-indicators{
+  position: relative;
+  top:550px;
+}
+.education-pic{
+  width:700px;
+  height:500px;
+}
+.education-text{
+  font-size: 2.5rem;
+  color:#5B8FB9;
+  margin:2% auto 0;
+}
+
+/* course section */
+#Courses{
+  background-color:#5B8FB9;
+  padding:5% 7%;
+}
+.card{
+  background-color: #301E67;
+  height:100%;
+}
+.course-logo{
+  width:100px;
+  height:100px;
+  margin:10px auto;
+}
+
+/* Experience section */
+#Experience{
+  background-color: #301E67;
+  padding:5% 7%;
+  text-align:center;
+}
+.projects{
+  color:#5B8FB9;
+}
+
+/* contact section */
+#Contact{
+  background-color: #5B8FB9;
+  padding:5% 7%;
+  text-align:center;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.bttn{
+  margin-bottom: 20px;
+}
+
+@media(max-width:1050px){
+  .profile-pic{
+    position:static;
+    z-index: 0;
+    width:100px;
+    height:200px
+  }
+  .about-me-div{
+    text-align:center;
+  }
+  .course-div{
+    margin:50px auto;
+  }
+}
